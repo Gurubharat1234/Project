@@ -1,0 +1,24 @@
+<div class="col-md-4 offset-md-4 mt-5">
+    
+  
+  <div class="shadow p-3 mb-5 bg-white rounded">
+    <h1>Please Login</h1>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+      <div class="formGroup mt-2 mb-3">
+        <input type="email" class="form-control" placeholder="Enter your Email" name="Email" required ngModel #name="ngModel">
+      </div>
+      <div class="formGroup mt-3 mb-3">
+        <input type="password" class="form-control" placeholder="Enter your Password" name="pwd" required ngModel #pwd="ngModel">
+      </div>
+      <div class="float-end mb-3">
+      <button class="btn btn-secondary mt-2" type="submit" [disabled]="loginForm.invalid">Login</button>
+      </div>
+  </form>
+  <div class="mb-3">
+    <a routerLink="Register">Not Registered Yet ?? Click here to Register</a>
+
+  </div>
+  
+</div>
+</div>
+<router-outlet></router-outlet>

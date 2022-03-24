@@ -1,0 +1,15 @@
+<!-- <p>{{}}</p> -->
+<div style="display: inline-block;">
+<div class="row-4 mt-2">
+    <div class="col-2">
+<div *ngFor="let data of menu" class="card">
+    <img [src]="data.url" alt="">
+
+    <div> item : {{data.item}}</div>
+   <div> price : {{data.price}} </div> 
+    <div> quantity : {{data.quantity}}</div> 
+
+</div>
+</div>
+</div>
+</div>

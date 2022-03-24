@@ -1,0 +1,25 @@
+<form [formGroup]="addMenu" (ngSubmit)="Submit()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">enter item name </label>
+      <input type="text" class="form-control" aria-describedby="emailHelp" formControlName="item">
+      
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">enter item price </label>
+        <input type="text" class="form-control"  aria-describedby="emailHelp" formControlName="price">
+        
+      </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">enter item quantity</label>
+      <input type="text" class="form-control"  aria-describedby="emailHelp" formControlName="quantity">
+      
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">enter image url</label>
+      <input type="text" class="form-control" formControlName="url">
+    </div>
+    
+      
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+

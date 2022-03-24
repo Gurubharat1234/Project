@@ -1,0 +1,52 @@
+{
+  "Register": [
+    {
+      "name": "Bharat",
+      "number": "8688484364",
+      "mail": "Bharat@gmail.com",
+      "password": "6789",
+      "role": "Delivery Patner",
+      "id": 1
+    },
+    {
+      "name": "ewfesrf",
+      "number": "regtrde",
+      "mail": "rergre",
+      "password": "regreg",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "name": "Barat",
+      "number": "8688484364",
+      "mail": "Malepati@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "name": "Bharat",
+      "number": "84357643",
+      "mail": "Malepati@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "id": 4
+    }
+  ],
+  "menu": [
+    {
+      "item": "birayni",
+      "price": 260,
+      "quantity": "mini",
+      "url": "https://cdn.pixabay.com/photo/2022/03/02/12/40/dish-7043065_960_720.jpg",
+      "id": 1
+    },
+    {
+      "item": "the old biryani",
+      "price": "34535",
+      "quantity": "full",
+      "url": "https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/kanu-priya020170722090721405.jpeg",
+      "id": 2
+    }
+  ]
+}

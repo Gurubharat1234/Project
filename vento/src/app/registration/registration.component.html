@@ -1,0 +1,32 @@
+<div class="col-md-4 offset-md-4">
+<form [formGroup]="registerForm" (ngSubmit)="Submit()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">enter Your name </label>
+      <input type="text" class="form-control" aria-describedby="emailHelp" formControlName="name">
+      
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">enter Your phone number </label>
+        <input type="text" class="form-control"  aria-describedby="emailHelp" formControlName="number">
+        
+      </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">enter Your mail</label>
+      <input type="email" class="form-control"  aria-describedby="emailHelp" formControlName="mail">
+      
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" formControlName="password">
+    </div>
+    <div class="mb-3">
+    <select class="form-control" formControlName="role">
+        <option value="user" class="form-control" >User</option>
+        <option value="Delivery Patner" class="form-control" >Delivery patner</option>
+
+    </select>
+</div>
+      
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
